@@ -1,0 +1,750 @@
+/* 
+    ? header shadow -> rgba color 설정
+*/
+
+/* body{background-color: gray;} */
+
+header div,
+section.indexContainer div:first-child div article p,
+section.indexContainer div:first-child div article a,
+section.indexContainer div:nth-child(2):not(h3),
+section.indexContainer div:nth-child(3) div p,
+section.indexContainer div:nth-child(4) ul li figure p,
+section.indexContainer > div:nth-child(5) div b,
+section.indexContainer div:nth-child(6) p
+section.indexContainer > div:nth-child(7) > div p + a,
+section.indexContainer > div:nth-child(8) ul li a,
+section.indexContainer > div:nth-child(9) ul li figure p,
+section[class$='ListContainer'] > div:first-child div,
+section.brandContainer > div:nth-child(2) div > div p,
+section.brandContainer > div:nth-child(3) > div p,
+section.brandContainer > div:nth-child(4) p,
+section.brandContainer > div:nth-child(5) p,
+section.beanContainer > div:nth-child(2) div > div p,
+section.beanContainer > div:nth-child(3) > div p,
+section.beanContainer div:nth-child(4) ul li figure p,
+section.beanContainer div:nth-child(5) ul li figure p,
+section.beanContainer > div:nth-child(6) p,
+section.detailContainer div:first-child ul:first-child li a,
+section.detailContainer div:first-child ul:nth-child(2) li:nth-child(2) p,
+section.detailContainer div:first-child ul:nth-child(2) li:nth-child(2) a,
+section.detailContainer > div:nth-child(2) > ul li,
+section.detailContainer > div:nth-child(2) > div:nth-child(2) figure figcaption,
+section.detailContainer > div:nth-child(3) ul li figure p,
+section.detailContainer > div:nth-child(4) h3,
+section.signInContainer form,
+section ul.myPageNAV li a,
+section[class$='myPage'],
+section.cartContainer,
+section.cart_checkoutContainer,
+section.TermsOfUseContainer,
+input{
+    font-family: 'Lato';
+}
+footer,
+section.indexContainer div:first-child div article h2,
+section.indexContainer div:nth-child(2) h3,
+section.indexContainer div:nth-child(3) div h2,
+section.indexContainer div:nth-child(4) h2,
+section.indexContainer div:nth-child(4) ul li figure figcaption,
+section.indexContainer > div:nth-child(5) div:not(b),
+section.indexContainer div:nth-child(6) h2,
+section.indexContainer div:nth-child(6) ul li figcaption,
+section.indexContainer > div:nth-child(7) h2,
+section.indexContainer > div:nth-child(8) h2,
+section.indexContainer > div:nth-child(9) h2,
+section.indexContainer > div:nth-child(9) ul li figure figcaption,
+section.brandContainer > div:nth-child(2) div > div h3,
+section.brandContainer > div:nth-child(3) > div h3,
+section.brandContainer > div:nth-child(4) h3,
+section.brandContainer > div:nth-child(4) ul li h4,
+section.brandContainer > div:nth-child(5) h3,
+section.beanContainer > div:nth-child(2) div > div h3,
+section.beanContainer > div:nth-child(3) > div h3,
+section.beanContainer div:nth-child(4) h3,
+section.beanContainer div:nth-child(4) ul li figure figcaption,
+section.beanContainer div:nth-child(5) h3,
+section.beanContainer div:nth-child(5) ul li figure figcaption,
+section.beanContainer > div:nth-child(6) h3,
+section.coffeeListContainer > div:nth-child(2) ul li,
+section.stickCoffeeListContainer > div:nth-child(2) ul li,
+section.teaBeverageListContainer > div:nth-child(2) ul li,
+section.giftSetListContainer > div:nth-child(2) ul li,
+section.cvsCoffeeListContainer > div:nth-child(2) ul li,
+section.cafeMenuListContainer > div:nth-child(2) ul li,
+section.detailContainer div:first-child ul:nth-child(2) li:nth-child(2) h3,
+section.detailContainer > div:nth-child(3) h3,
+section.detailContainer > div:nth-child(3) ul li figure figcaption,
+section.detailContainer > div:nth-child(4) ul li h3,
+section.detailContainer > div:nth-child(4) ul li p,
+section.signInContainer form fieldset > span.signP_01,
+section.myPageContainer div dl,
+section.myPageContainer div a,
+section.myPage_dashboardContainer div p,
+section.myPage_historyContainer div p,
+section.myPage_historyContainer div span,
+section.myPage_cardContainer div p,
+section.myPage_cardContainer div dl,
+section.myPage_cardContainer div button,
+section.myPage_createCardContainer form fieldset span,
+section.cartContainer div:first-child > div h3,
+section.cartContainer div:last-child ul li a,
+section.cartContainer div:last-child ul li b,
+section.cart_checkoutContainer ul li a,
+section.cart_checkoutContainer ul li p,
+section.cart_checkoutContainer form fieldset label,
+section.cart_checkoutContainer > div:first-of-type form fieldset span,
+section.cart_checkoutContainer > div > div:nth-child(1) a h3,
+section.cart_checkoutContainer > div > div:nth-child(3) span{
+    font-family: 'Oswald';
+}
+
+a{text-decoration: none;}
+li{list-style: none;}
+img{width: 100%;}
+
+.bx-wrapper {
+    box-shadow: none;
+    border: none;
+    background: transparent;
+    margin-bottom: 0;
+    padding: 0;
+}
+/* ?bx REset */
+@media screen and (min-width: 280px) and (max-width: 767px){
+    header div:first-child ul,
+    header div:last-child ul.fnb,
+    footer div:first-child,
+    section.indexContainer div:first-child div,
+    section.indexContainer > div:nth-child(2) div,
+    section.indexContainer div:nth-child(3),
+    section.indexContainer div:nth-child(4),
+    section.indexContainer div:nth-child(5) div,
+    section.indexContainer div:nth-child(6),
+    section.indexContainer > div:nth-child(7) > div{
+        max-width: 260px; margin: 0 auto;
+    }
+    section.brandContainer > div:first-child div,
+    section.brandContainer > div:nth-child(2) > div,
+    section.brandContainer > div:nth-child(3) > div,
+    section.brandContainer > div:nth-child(4),
+    section.brandContainer > div:nth-child(5),
+    section.beanContainer > div:first-child div,
+    section.beanContainer > div:nth-child(2) > div,
+    section.beanContainer > div:nth-child(3) > div,
+    section.beanContainer > div:nth-child(4),
+    section.beanContainer > div:nth-child(5),
+    section.beanContainer > div:nth-child(6),
+    section[class$='ListContainer'] > div:first-child div,
+    section[class$='ListContainer'] > div:nth-child(2),
+    section.detailContainer,
+    section[class^='myPage'],
+    section.cartContainer,
+    section.TermsOfUseContainer,
+    section.cart_checkoutContainer > div:first-of-type,
+    section > div.couponContainer > div{
+        max-width: 260px; margin: 0 auto;
+    }
+
+    header{
+        background-color: white; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); z-index: 1000;
+        position: fixed; width: 100%;
+    }
+    header div{
+        position: relative;
+    }
+    header div ul{
+        list-style: none;
+    }
+    header div ul li{
+        display: inline-block;
+    }
+    header div:first-child{
+        background-color: #1e3879; text-align: center;
+    }
+    header div:first-child ul{
+        padding: 6px 0;
+    }
+    header div:first-child ul li:not(:first-child){
+        margin-left: 5px;
+    }
+    header div:first-child ul.sign li:not(:first-child){
+        margin-left: 3px;
+    }
+    header div:first-child ul li a{
+        vertical-align: middle;
+        color: white; text-transform: uppercase; font-weight: 400; font-size: 12px;
+    }
+    header div:first-child ul li:last-child{
+        margin: 0;
+    }
+    header div:first-child ul li input{
+        vertical-align: middle;
+    }
+    header div:first-child ul li input[type='search']{
+        width: 0px; opacity: 0; transition: all 0.35s ease-in;
+    }
+    header div:first-child ul li:last-child input[type='search'].active{
+        width: 210px; opacity: 1;
+    }
+    header div:first-child ul li:last-child input:last-child{
+        text-indent: -9999px; background-color: unset; border: none;
+        background: url('../images/header_surch.png')center top no-repeat;
+    }
+    header div:last-child{
+        padding: 30px 2% 15px;
+    }
+    header div:last-child{
+        box-sizing: border-box;
+    }
+    header div:last-child h1{
+        max-width: 280px; position: absolute; left: 2%; top: 0; padding: 26px 0;
+        width: 80%;
+    }
+    header div:last-child h1 a{
+        display: block;
+    }
+    header div:last-child nav > input{
+        text-indent: -9999px; background-color: unset; border: none;
+        background: url('../images/icon_menu.png')center top no-repeat;
+        width: 22px; position: absolute; right: 2%; top: 25px;
+    }
+    header div:last-child nav ul:first-child{
+        display: none;
+    }
+    header div:last-child nav ul.fnb{
+        visibility: hidden; height: 32px;
+    }
+    header div:last-child nav ul.fnb.active{
+        visibility: visible; height: unset; padding-top: 90px;
+    }
+    header div:last-child nav ul:last-child li{
+        vertical-align: top; width: 128px;
+    }
+    header div:last-child nav ul:last-child li *{
+        font-size: 0px; opacity: 0;
+    }
+    header div:last-child nav ul:last-child li:nth-child(1),
+    header div:last-child nav ul:last-child li:nth-child(2),
+    header div:last-child nav ul:last-child li:nth-child(3),
+    header div:last-child nav ul:last-child li:nth-child(4){
+        height: 140px;
+    }
+    header div:last-child nav ul:last-child li *{
+        opacity: 1;
+    }
+    header div:last-child nav ul:last-child li h2 a{
+        text-transform: uppercase;  color: #666666; font-size: 16px; margin-bottom: 20px;
+    }
+    header div:last-child nav ul:last-child li:nth-child(5) > h2:first-child{
+        margin-bottom: 50px;
+    }
+    header div:last-child nav ul:last-child li a{
+        display: block; color: #666666; font-size: 12px; line-height: 20px;
+    }
+
+    footer{
+        position: relative; z-index: 100;
+        background-color: #262626; color: white;
+    }
+    footer > div:first-child{
+        padding: 100px 0;
+    }
+    footer > div:first-child > div{
+        vertical-align: top;
+    }
+
+    
+    footer > div:first-child > div:first-child h2{
+        background: url('../images/ediya_logo_2.png') left top no-repeat;
+        background-size: 48px; padding-top: 70px; margin-bottom: 30px;
+        font-size: 14px; font-weight: 500; text-transform: uppercase;
+    }
+    footer > div:first-child > div:first-child p{
+        font-size: 36px; font-weight: 500; text-transform: uppercase;
+        margin-bottom: 50px; width: 155px;
+    }
+    footer > div:first-child > div:first-child ul{
+        margin-bottom: 50px;
+    }
+    footer > div:first-child > div:first-child ul li{
+        list-style: none; display: inline-block;
+    }
+    footer > div:first-child > div:first-child ul li > a{
+        display: block; margin-right: 30px;
+    }
+    footer > div:first-child > div:first-child ul li > a img{
+        width: 100%;
+    }
+    footer > div:first-child > div ol{
+        list-style: none;
+    }
+    footer > div:first-child > div:not(:first-child){
+        font-size: 12px; font-weight: 500; line-height: 36px; text-transform: uppercase;
+    }
+    footer > div:first-child > div ol li{
+        opacity: 50%; font-style: normal;
+    }
+    footer > div:first-child > div ol li a{
+        color: white;
+    }
+    footer > div:first-child > div ol li address a{
+        font-style: normal
+    }
+    footer > div:first-child > div:nth-child(3) div h3{
+        margin-bottom: 10px; 
+    }
+    footer > div:first-child > div:nth-child(3) div span{
+        display: inline-block;
+    }
+    footer > div:first-child > div:nth-child(3) div span img{
+        width: 100%;
+    }
+    footer > div:last-child{
+        background-color: #111111; text-align: center;
+    }
+    footer > div:last-child > ul{
+        padding: 35px 0; width: 260px; margin: 0 auto;
+    }
+    footer > div:last-child > ul li p{
+        font-size: 13px; font-weight: 500; line-height: 22px; text-transform: uppercase;
+        opacity: 50%;
+    }
+    footer > div:last-child > ul li ul li{
+        display: inline-block;
+    }
+    footer > div:last-child > ul li ul li a{
+        color: white; font-size: 13px; font-weight: 500; line-height: 22px; text-transform: uppercase;
+        opacity: 50%; padding: 0 5px 0 7px;
+    }
+    footer > div:last-child > ul li ul li:not(:first-child) a{
+        border-left: 2px solid white;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px){
+    header div:first-child ul,
+    header div:last-child ul.fnb,
+    footer div:first-child,
+    section.indexContainer div:first-child div,
+    section.indexContainer > div:nth-child(2) div,
+    section.indexContainer div:nth-child(3),
+    section.indexContainer div:nth-child(4),
+    section.indexContainer div:nth-child(5) div,
+    section.indexContainer div:nth-child(6),
+    section.indexContainer > div:nth-child(7) > div,
+    section.indexContainer > div:nth-child(9){
+        max-width: 720px; margin: 0 auto;
+    }
+    section.brandContainer > div:first-child div,
+    section.brandContainer > div:nth-child(2) > div,
+    section.brandContainer > div:nth-child(3) > div,
+    section.brandContainer > div:nth-child(4),
+    section.brandContainer > div:nth-child(5),
+    section.beanContainer > div:first-child div,
+    section.beanContainer > div:nth-child(2) > div,
+    section.beanContainer > div:nth-child(3) > div,
+    section.beanContainer > div:nth-child(4),
+    section.beanContainer > div:nth-child(5),
+    section.beanContainer > div:nth-child(6),
+    section[class$='ListContainer'] > div:first-child div,
+    section[class$='ListContainer'] > div:nth-child(2),
+    section.detailContainer,
+    section[class^='myPage'],
+    section.cartContainer,
+    section.TermsOfUseContainer,
+    section.cart_checkoutContainer > div:first-of-type,
+    section > div.couponContainer > div{
+        max-width: 720px; margin: 0 auto;
+    }
+
+    header{
+        background-color: white; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); z-index: 1000;
+        position: fixed; width: 100%;
+    }
+    header div{
+        position: relative;
+    }
+    header div ul{
+        list-style: none;
+    }
+    header div ul li{
+        display: inline-block;
+    }
+    header div:first-child{
+        background-color: #1e3879; text-align: right;
+    }
+    header div:first-child ul{
+        padding: 6px 0;
+    }
+    header div:first-child ul li{
+        margin-left: 15px;
+    }
+    header div:first-child ul li a{
+        vertical-align: middle;
+        color: white; text-transform: uppercase; font-weight: 400; font-size: 12px;
+    }
+    header div:first-child ul li:last-child{
+        margin: 0;
+    }
+    header div:first-child ul li input{
+        vertical-align: middle;
+    }
+    header div:first-child ul li input[type='search']{
+        width: 0px; opacity: 0; transition: all 0.35s ease-in;
+    }
+    header div:first-child ul li:last-child input[type='search'].active{
+        width: 200px; opacity: 1; margin-left: 15px;
+    }
+    header div:first-child ul li:last-child input:last-child{
+        text-indent: -9999px; background-color: unset; border: none;
+        background: url('../images/header_surch.png')center top no-repeat;
+    }
+    header div:last-child{
+        padding: 30px 2% 15px;
+    }
+    header div:last-child{
+        box-sizing: border-box;
+    }
+    header div:last-child h1{
+        max-width: 280px; position: absolute; left: 2%; top: 0; padding: 26px 0;
+        width: 19%;
+    }
+    header div:last-child h1 a{
+        display: block;
+    }
+    header div:last-child nav > input{
+        text-indent: -9999px; background-color: unset; border: none;
+        background: url('../images/icon_menu.png')center top no-repeat;
+        width: 22px; position: absolute; right: 2%; top: 25px;
+    }
+    header div:last-child nav ul:first-child{
+        display: none;
+    }
+    header div:last-child nav ul.fnb{
+        visibility: hidden; height: 32px;
+    }
+    header div:last-child nav ul.fnb.active{
+        visibility: visible; height: unset; padding-top: 90px;
+    }
+    header div:last-child nav ul:last-child li{
+        vertical-align: top; margin-left: 40px; width: 135px;
+    }
+    header div:last-child nav ul:last-child li *{
+        font-size: 0px; opacity: 0;
+    }
+    header div:last-child nav ul:last-child li:nth-child(1),
+    header div:last-child nav ul:last-child li:nth-child(2),
+    header div:last-child nav ul:last-child li:nth-child(3),
+    header div:last-child nav ul:last-child li:nth-child(4){
+        height: 140px;
+    }
+    header div:last-child nav ul:last-child li *{
+        opacity: 1;
+    }
+    header div:last-child nav ul:last-child li h2 a{
+        text-transform: uppercase;  color: #666666; font-size: 16px; margin-bottom: 20px;
+    }
+    header div:last-child nav ul:last-child li:nth-child(5) > h2:first-child{
+        margin-bottom: 50px;
+    }
+    header div:last-child nav ul:last-child li a{
+        display: block; color: #666666; font-size: 12px; line-height: 20px;
+    }
+
+    footer{
+        position: relative; z-index: 100;
+        background-color: #262626; color: white;
+    }
+    footer > div:first-child{
+        padding: 100px 0;
+    }
+    footer > div:first-child div{
+        vertical-align: top; display: inline-block;
+    }
+    footer > div:first-child > div:nth-child(2){
+        margin-left: 5%;
+    }
+    footer > div:first-child > div:nth-child(3){
+        margin-top: -265px; margin-left: 37.5%;
+    }
+    footer > div:first-child > div:first-child h2{
+        background: url('../images/ediya_logo_2.png') left top no-repeat;
+        background-size: 48px; padding-top: 70px; margin-bottom: 30px;
+        font-size: 14px; font-weight: 500; text-transform: uppercase;
+    }
+    footer > div:first-child > div:first-child p{
+        font-size: 36px; font-weight: 500; text-transform: uppercase;
+        margin-bottom: 100%; width: 155px;
+    }
+    footer > div:first-child > div:first-child ul li{
+        list-style: none; display: inline-block;
+    }
+    footer > div:first-child > div:first-child ul li > a{
+        display: block; margin-right: 30px;
+    }
+    footer > div:first-child > div:first-child ul li > a img{
+        width: 100%;
+    }
+    footer > div:first-child > div ol{
+        list-style: none;
+    }
+    footer > div:first-child > div:not(:first-child){
+        font-size: 12px; font-weight: 500; line-height: 36px; text-transform: uppercase;
+    }
+    footer > div:first-child > div ol li{
+        opacity: 50%; font-style: normal;
+    }
+    footer > div:first-child > div ol li a{
+        color: white;
+    }
+    footer > div:first-child > div ol li address a{
+        font-style: normal
+    }
+    footer > div:first-child > div:nth-child(3) div h3{
+        margin-bottom: 10px; 
+    }
+    footer > div:first-child > div:nth-child(3) div span{
+        display: inline-block; margin-right: 10px;
+    }
+    footer > div:first-child > div:nth-child(3) div span img{
+        width: 100%;
+    }
+    footer > div:last-child{
+        background-color: #111111; text-align: center;
+    }
+    footer > div:last-child > ul{
+        padding: 35px 0; width: 720px; margin: 0 auto;
+    }
+    footer > div:last-child > ul li p{
+        font-size: 13px; font-weight: 500; line-height: 22px; text-transform: uppercase;
+        opacity: 50%;
+    }
+    footer > div:last-child > ul li ul li{
+        display: inline-block;
+    }
+    footer > div:last-child > ul li ul li a{
+        color: white; font-size: 13px; font-weight: 500; line-height: 22px; text-transform: uppercase;
+        opacity: 50%; padding: 0 5px 0 7px;
+    }
+    footer > div:last-child > ul li ul li:not(:first-child) a{
+        border-left: 2px solid white;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    header div:first-child ul,
+    header div:last-child ul.fnb,
+    footer div:first-child,
+    section.indexContainer div:first-child div,
+    section.indexContainer div:nth-child(2) div,
+    section.indexContainer div:nth-child(3),
+    section.indexContainer div:nth-child(4),
+    section.indexContainer div:nth-child(5) div,
+    section.indexContainer div:nth-child(6),
+    section.indexContainer > div:nth-child(7) > div,
+    section.indexContainer > div:nth-child(9){
+        max-width: 1140px; margin: 0 auto;
+    }
+    section.brandContainer > div:first-child div,
+    section.brandContainer > div:nth-child(2) > div,
+    section.brandContainer > div:nth-child(3) > div,
+    section.brandContainer > div:nth-child(4),
+    section.brandContainer > div:nth-child(5),
+    section.beanContainer > div:first-child div,
+    section.beanContainer > div:nth-child(2) > div,
+    section.beanContainer > div:nth-child(3) > div,
+    section.beanContainer > div:nth-child(4),
+    section.beanContainer > div:nth-child(5),
+    section.beanContainer > div:nth-child(6),
+    section[class$='ListContainer'] > div:first-child div,
+    section[class$='ListContainer'] > div:nth-child(2),
+    section.detailContainer,
+    section[class^='myPage'],
+    section.cartContainer,
+    section.TermsOfUseContainer{
+        max-width: 1280px; margin: 0 auto;
+    }
+
+    header{
+        background-color: white; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); z-index: 1000;
+        position: fixed; width: 100%;
+    }
+    header div{
+        position: relative;
+    }
+    header div ul{
+        list-style: none;
+    }
+    header div ul li{
+        display: inline-block;
+    }
+    header div:first-child{
+        background-color: #1e3879; text-align: right;
+    }
+    header div:first-child ul{
+        padding: 6px 0;
+    }
+    header div:first-child ul li{
+        margin-left: 15px;
+    }
+    header div:first-child ul li a{
+        vertical-align: middle;
+        color: white; text-transform: uppercase; font-weight: 400; font-size: 12px;
+    }
+    header div:first-child ul li:last-child{
+        margin: 0;
+    }
+    header div:first-child ul li input{
+        vertical-align: middle;
+    }
+    header div:first-child ul li input[type='search']{
+        width: 0px; opacity: 0; transition: all 0.35s ease-in;
+    }
+    header div:first-child ul li:last-child input[type='search'].active{
+        width: 200px; opacity: 1; margin-left: 15px;
+    }
+    header div:first-child ul li:last-child input:last-child{
+        text-indent: -9999px; background-color: unset; border: none;
+        background: url('../images/header_surch.png')center top no-repeat;
+    }
+    header div:last-child{
+        padding: 30px 2% 15px;
+    }
+    header div:last-child{
+        box-sizing: border-box;
+    }
+    header div:last-child h1{
+        max-width: 280px; position: absolute; left: 2%; top: 0; padding: 26px 0;
+        width: 19%;
+    }
+    header div:last-child h1 a{
+        display: block;
+    }
+    header div:last-child h1 a img{
+        width: 100%;
+    }
+    header div:last-child nav > input{
+        display: none;
+    }
+    header div:last-child nav{
+        text-align: center;
+    }
+    header div:last-child nav ul:first-child li{
+        text-transform: uppercase; color: black; font-weight: 700; font-size: 16px;
+    }
+    header div:last-child nav ul:first-child li:not(:first-child){
+        margin-left: 1.3%;
+    }
+    header div:last-child nav ul:last-child{
+        text-align: left; transition: padding-top 0.35s ease-out;
+    }
+
+    /* header div:last-child nav ul:last-child{
+        height: 0; box-sizing: border-box; overflow-y: hidden;
+        transition-duration: 0.5s; transition-timing-function: linear;
+    }
+    header div:last-child:hover nav ul:last-child{
+        opacity: 100%; margin-top: 90px; height: 100%;
+        transition-duration: 0.5s; transition-timing-function: linear;
+    } */
+    header div:last-child nav:hover ul:last-child{
+        padding: 90px 0 20px;
+    }
+    header div:last-child nav ul:last-child li{
+        vertical-align: top; margin-left: 40px; width: 135px;
+    }
+    header div:last-child nav ul:last-child li *{
+        font-size: 0px; opacity: 0; transition: all 0.35s ease-out;
+    }
+    header div:last-child nav:hover ul:last-child li *{
+        opacity: 1;
+    }
+    header div:last-child nav:hover ul:last-child li h2 a{
+        text-transform: uppercase;  color: #666666; font-size: 16px; margin-bottom: 20px;
+    }
+    header div:last-child nav:hover ul:last-child li:nth-child(5) > h2:first-child{
+        margin-bottom: 50px;
+    }
+    header div:last-child nav:hover ul:last-child li a{
+        display: block; color: #666666; font-size: 12px; line-height: 20px;
+    }
+
+    footer{
+        position: relative; z-index: 100;
+        background-color: #262626; color: white;
+    }
+    footer > div:first-child{
+        padding: 100px 0;
+    }
+    footer > div:first-child div{
+        vertical-align: top; display: inline-block;
+    }
+    footer > div:first-child > div:nth-child(2),
+    footer > div:first-child > div:nth-child(3){
+        margin-left: 10%;
+    }
+    footer > div:first-child > div:first-child h2{
+        background: url('../images/ediya_logo_2.png') left top no-repeat;
+        background-size: 48px; padding-top: 70px; margin-bottom: 30px;
+        font-size: 14px; font-weight: 500; text-transform: uppercase;
+    }
+    footer > div:first-child > div:first-child p{
+        font-size: 36px; font-weight: 500; text-transform: uppercase;
+        margin-bottom: 100%;
+    }
+    footer > div:first-child > div:first-child ul li{
+        list-style: none; display: inline-block;
+    }
+    footer > div:first-child > div:first-child ul li > a{
+        display: block; margin-right: 30px;
+    }
+    footer > div:first-child > div:first-child ul li > a img{
+        width: 100%;
+    }
+    footer > div:first-child > div ol{
+        list-style: none;
+    }
+    footer > div:first-child > div:not(:first-child){
+        font-size: 12px; font-weight: 500; line-height: 36px; text-transform: uppercase;
+    }
+    footer > div:first-child > div ol li{
+        opacity: 50%; font-style: normal;
+    }
+    footer > div:first-child > div ol li a{
+        color: white;
+    }
+    footer > div:first-child > div ol li address a{
+        font-style: normal
+    }
+    footer > div:first-child > div:nth-child(3) div h3{
+        margin-bottom: 10px;
+    }
+    footer > div:first-child > div:nth-child(3) div span{
+        display: inline-block; margin-right: 10px;
+    }
+    footer > div:first-child > div:nth-child(3) div span img{
+        width: 100%;
+    }
+    footer > div:last-child{
+        background-color: #111111; text-align: center;
+    }
+    footer > div:last-child > ul{
+        padding: 35px 0;
+    }
+    footer > div:last-child > ul li p{
+        font-size: 13px; font-weight: 500; line-height: 22px; text-transform: uppercase;
+        opacity: 50%;
+    }
+    footer > div:last-child > ul li ul li{
+        display: inline-block;
+    }
+    footer > div:last-child > ul li ul li a{
+        color: white; font-size: 13px; font-weight: 500; line-height: 22px; text-transform: uppercase;
+        opacity: 50%; padding: 0 5px 0 7px;
+    }
+    footer > div:last-child > ul li ul li:not(:first-child) a{
+        border-left: 2px solid white;
+    }
+}
+/* ? desktop */
